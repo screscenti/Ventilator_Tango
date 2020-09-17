@@ -1,0 +1,32 @@
+<mxGraphModel grid="1" guides="1" tooltips="1" connect="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" style="default-style2">
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+    <mxCell id="3" value="SMW - Wrapper around Capella&#xa;Includes eGit&#xa;Includes Add-Ons - System to Subsystem Transition&#xa;Includes Teamcenter Integration&#xa;&#xa;End User&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;" style="ellipse;shape=doubleEllipse;whiteSpace=wrap" parent="1" vertex="1">
+      <mxGeometry x="240" y="60" width="405" height="405" as="geometry"/>
+    </mxCell>
+    <mxCell id="2" value="Capella&#xa;This is the core of SWM &#xa;(Open Source)&#xa;&#xa;End User" style="ellipse;shape=doubleEllipse;whiteSpace=wrap" parent="1" vertex="1">
+      <mxGeometry x="290" y="255" width="180" height="180" as="geometry"/>
+    </mxCell>
+    <mxCell id="4" value="Publication for Capella&#xa;This does the integration &#xa;OSLC for Polarion, Doors Next Gen, Any other ALM or OSLC Compatible (NOT TC)&#xa;&#xa;End User" style="ellipse;shape=doubleEllipse;whiteSpace=wrap" parent="1" vertex="1">
+      <mxGeometry x="500" y="385" width="180" height="180" as="geometry"/>
+    </mxCell>
+    <mxCell id="5" value="Team for Capella&#xa;Allows collaborative &#xa;Authoring from a model &#xa;(Google Docs type of &#xa;Collaboration)&#xa;Server App that runs on a &#xa;server not the client&#xa;&#xa;Runs on Server" style="ellipse;shape=doubleEllipse;whiteSpace=wrap" parent="1" vertex="1">
+      <mxGeometry x="40" y="580" width="190" height="200" as="geometry"/>
+    </mxCell>
+    <mxCell id="6" value="Connection Between&#xa;Client and Server" style="endArrow=none" parent="1" source="5" target="3" edge="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="243.86620741500695" y="526.5117234466575" as="sourcePoint"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="8" value="Provided by Obeo" style="rounded=1;whiteSpace=wrap" parent="1" vertex="1">
+      <mxGeometry x="332.5" y="720" width="120" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="9" value="" style="endArrow=none" parent="1" source="8" target="5" edge="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="10" value="" style="endArrow=none" parent="1" source="8" target="4" edge="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+  </root>
+</mxGraphModel>
